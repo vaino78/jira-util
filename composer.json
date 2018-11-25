@@ -4,5 +4,13 @@
     "require": {
         "lesstif/php-jira-rest-client": "^1.33",
         "symfony/console": "^4.1"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "vaino78\\JiraUtil\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/jirautil"
+    ]
 }
