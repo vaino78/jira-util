@@ -1,0 +1,8 @@
+{
+    "name": "vaino78/jira-util",
+    "type": "script",
+    "require": {
+        "lesstif/php-jira-rest-client": "^1.33",
+        "symfony/console": "^4.1"
+    }
+}
